@@ -1,5 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
+import Routes from './routes/routes'
+import GlobalStyles from './styles/globalStyles'
+
 const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(<h1>Hello Code Burger</h1>)
+root.render(
+  <>
+    <Routes />
+    <GlobalStyles />
+  </>
+)
